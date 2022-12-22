@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Codificador e Decodificador</title>
+  </head>
+  <body>
+    <main class="main">
+      <img class="imgLogoAlura" src="./image/vector-a.png" alt="" />
+      <div class="containerPrincipal">
+        <div class="inputEntrada">
+          <input
+            class="inputText"
+            spellcheck="false"
+            id="inputText"
+            type="text"
+            placeholder="Digite o texto aqui:"
+          />
+          <button class="colar" id="colar">Colar</button>
+        </div>
+
+        <div class="botoes">
+          <p class="condicoes">
+            <img
+              class="imgExclamacao"
+              src="./image/vector-exclamacao.png"
+              alt=""
+            />
+            Apenas letras minúsculas e sem acento.
+          </p>
+
+          <button class="botaoCrip botoes" id="botaoCriptografar">
+            Criptografar
+          </button>
+          <button class="botaoDescrip botoes" id="botaoDescriptografar">
+            Descriptografar
+          </button>
+        </div>
+      </div>
+
+      <div class="resultadoContainer">
+        <img id="imgResultado" src="./image/imgResultadoContainer.png" alt="" />
+        <textarea
+          class="textoCripDescipt"
+          id="textoCripDescipt"
+          cols="100"
+          rows="100"
+        ></textarea>
+
+        <button class="copiar" id="copiar">Copiar</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span
+        >&copy;Copyright Almir Junior - 2022 -
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/almir-j%C3%BAnior-dev/"
+          ><img
+            class="imgFooter"
+            src="./image/linkedin.png"
+            alt="Logo Linkedin"
+        /></a>
+        -
+        <a target="_blank" href="https://github.com/almirjunior-p"
+          ><img class="imgFooter" src="./image/github.png" alt="Logo Linkedin"
+        /></a>
+      </span>
+    </footer>
+
+    <script src="./script.js" deter=""></script>
+  </body>
+</html>

@@ -1,0 +1,231 @@
+/* Font inport */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  min-height: 90vh;
+  background-color: #f3f5fc;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
+.imgLogoAlura {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  left: 150px;
+  bottom: 30px;
+}
+
+.containerPrincipal {
+  width: 50%;
+  height: 600px;
+  background-color: #f3f5fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.inputText {
+  background-color: transparent;
+  width: 350px;
+  height: 50px;
+  font-size: 24px;
+  border: transparent;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.colar {
+  padding: 20px;
+  width: 200px;
+  height: 67px;
+  border: #0a3871;
+  border-radius: 24px;
+  background: #0a3871;
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.imgExclamacao {
+  width: 18px;
+}
+
+.condicoes {
+  font-size: 24px;
+}
+
+.botaoCrip {
+  padding: 20px;
+  width: 200px;
+  height: 67px;
+  border: #0a3871;
+  border-radius: 24px;
+  background: #0a3871;
+  color: white;
+  font-size: 18px;
+  margin: 15px 30px 0 0;
+  cursor: pointer;
+}
+
+.botaoDescrip {
+  padding: 20px;
+  width: 200px;
+  height: 67px;
+  color: #0a3871;
+  border-color: #0a3871;
+  border-radius: 24px;
+  background: white;
+  font-size: 18px;
+  margin: 15px 30px 0 0;
+  cursor: pointer;
+}
+
+.botaoDescrip:active {
+  color: white;
+  background-color: #0a3871;
+}
+
+.resultadoContainer {
+  width: 30%;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 50px 15px;
+}
+
+#imgResultado {
+  width: 50%;
+  height: 600px;
+  position: relative;
+  display: hidden;
+}
+
+.textoCripDescipt {
+  font-size: 30px;
+  width: 100%;
+  color: #495057;
+  display: none;
+  background-color: transparent;
+  text-align: center;
+  border: transparent;
+  resize: none;
+}
+
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.copiar {
+  padding: 20px;
+  width: 200px;
+  height: 67px;
+  color: #0a3871;
+  border-color: #0a3871;
+  border-radius: 24px;
+  background: white;
+  font-size: 18px;
+  margin: 15px 30px 0 0;
+  cursor: pointer;
+  display: none;
+}
+
+.copiar:active {
+  color: white;
+  background-color: #0a3871;
+}
+
+.footer {
+  min-height: 10vh;
+  background-color: #f3f5fc;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.imgFooter {
+  width: 18px;
+  margin-bottom: -3px;
+}
+
+@media (max-width: 928px) {
+  .botoes p {
+    font-size: 18px;
+  }
+  .botoes button {
+    font-size: 16px;
+    width: 150px;
+  }
+  .colar {
+    font-size: 16px;
+    width: 150px;
+  }
+  .copiar {
+    font-size: 16px;
+    width: 150px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 728px) {
+  .imgLogoAlura {
+    visibility: hidden;
+  }
+  .botoes {
+    font-size: 16px;
+    text-align: center;
+  }
+  .botoes button {
+    font-size: 14px;
+    width: 140px;
+  }
+  .colar {
+    font-size: 16px;
+    width: 150px;
+  }
+  .copiar {
+    font-size: 14px;
+    width: 100px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .inputEntrada {
+    width: 100%;
+  }
+
+  #imgResultado {
+    visibility: hidden;
+  }
+  .colar {
+    font-size: 12px;
+    width: 100px;
+  }
+  .copiar {
+    font-size: 12px;
+    width: 100px;
+    margin: auto;
+  }
+}
