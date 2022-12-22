@@ -1,6 +1,6 @@
 <h1 align="center"> Olá 👋 </h1>
 <hr>
-<h2 align="center" >Repositório Criado para Solução do Desafio de codificação e decodificação, proposto em meio ao projeto 
+<h2 align="center" >Repositório Criado para Solução do Desafio de criptografar e descriptografar, proposto em meio ao projeto 
 da One (Oracle Next Education), um projeto da Oracle em conjunto com a Alura 🚀🚀🚀  </h2>
 <hr>
 <h2 align="center">Tecnologias Usadas 👨‍💻👨‍💻👨‍💻</h2>
